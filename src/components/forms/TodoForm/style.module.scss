@@ -1,0 +1,43 @@
+.formBox{
+    padding: 2rem;
+    background: var(--Color-White) ;
+    box-shadow: 0px 4px 25px 0px var(--Gray-1);
+    border: 1px solid var(--Gray-1);
+    margin-bottom: 10px;
+
+    label{
+        
+        display: flex;
+        flex-direction: column;
+        padding: 7px 0px;
+        
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    input{
+        background: var(--Gray-0);
+        width: 100%;
+        height: 52px;
+        border-radius: 8px;
+        padding: 0 16px 0 16px;
+        align-items: center;
+        
+    }
+    select{
+        display: flex;
+        width: 100%;
+        height: 52px;
+        align-items: center;
+        background: var(--Gray-0);
+        border: 1px solid var(--Gray-0);
+        border-radius: 8px;
+        padding: 7px ;
+        
+    }
+
+    
+}

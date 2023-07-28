@@ -1,0 +1,11 @@
+.header{
+    box-shadow: 0 0 8px 1px var(--Gray-3);
+    background: var(--Gray-0);
+    padding: clamp(1.875rem, 2vw , 1.2rem) ;
+    
+    img{
+        height: 1.2206rem;
+        margin-left: 140px;
+        width: 35%;
+    }
+}

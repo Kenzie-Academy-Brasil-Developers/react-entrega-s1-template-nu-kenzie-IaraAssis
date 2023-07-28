@@ -1,0 +1,28 @@
+.container{
+    border: 1px solid var(--Gray-1);
+    padding: 0.9375rem;
+    font-family: var(--font-family);
+
+    
+    div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    span{
+        color: var(--Color-primary);
+    }
+    
+    h2{
+        color: var(--Gray-4);
+        margin-bottom: 0.625rem;
+    }
+
+    p{
+        color: var(--Gray-6);
+        margin-bottom: 0.625rem;
+        align-items: center;
+    }
+
+}
