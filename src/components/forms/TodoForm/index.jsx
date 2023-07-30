@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Input } from "../input";
+import {Input} from "../input"
 import { Select } from "../Select";
 import styles from "./style.module.scss"
 

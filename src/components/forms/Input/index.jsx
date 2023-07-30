@@ -1,7 +1,6 @@
 import styles from "./style.module.scss"
 
 
-
 export const Input = ({label, id, type , placeholder, value , setValue, paragraph}) => {
     return (
     <div >

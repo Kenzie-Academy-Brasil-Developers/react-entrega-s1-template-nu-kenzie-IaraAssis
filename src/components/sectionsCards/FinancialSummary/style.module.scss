@@ -6,13 +6,13 @@
 .containerForm{
     display: flex;
     flex-direction: column;
-    width: 50%;
-
+    
+    
 }
 .containerLi{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    
 
     h2{
         margin-bottom: 1.25rem;
@@ -23,14 +23,18 @@
 @media (min-width: 900px){
     .container{
         display: flex;
+        flex: 1;
+        
         
     }
     .containerForm{
+    
         width: 100%;
     }
 
     .containerLi{
         width: 100%;
+    
     }
 
 }
