@@ -1,4 +1,4 @@
-import styles from "./style.module.scss"
+import styles from "./style.module.scss";
 
 export const FinancialCard = ({description, value, type, removeNote, id}) =>{
     return(
@@ -19,7 +19,7 @@ export const FinancialCard = ({description, value, type, removeNote, id}) =>{
                 </button>
             </div>
         </li>
-    )
-}
+    );
+};
 
 

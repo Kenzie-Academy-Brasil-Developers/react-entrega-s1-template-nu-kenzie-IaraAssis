@@ -1,21 +1,21 @@
 import { useState } from "react";
 import { TodoForm } from "../../forms/TodoForm";
-import { FinancialList } from "./FinancialList"
+import { FinancialList } from "./FinancialList";
 import { SectionValue } from "../../valueTotal/SectionValue";
-import {v4 as uuidv4} from "uuid"
-import styles from "./style.module.scss"
+import {v4 as uuidv4} from "uuid";
+import styles from "./style.module.scss";
 
 export const FinancialSummary = () => {
-    const [notList, setNotList] = useState([])
+    const [notList, setNotList] = useState([]);
 
     const addNote = (formData) => {
         const newNote = {...formData, id: uuidv4()}
-        setNotList([...notList, newNote])
+        setNotList([...notList, newNote]);
     }
         
     const removeNote = (removeId) => {
-        const newNoteList = notList.filter(note => note.id !== removeId)
-        setNotList(newNoteList)
+        const newNoteList = notList.filter(note => note.id !== removeId);
+        setNotList(newNoteList);
     }
         
     return(
@@ -32,9 +32,9 @@ export const FinancialSummary = () => {
                 
             </div>
         </section>
-    )
+    );
 
-}
+};
 
 
 

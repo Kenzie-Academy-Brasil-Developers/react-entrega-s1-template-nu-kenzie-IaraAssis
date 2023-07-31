@@ -1,7 +1,7 @@
 import { useState } from "react";
-import {Input} from "../input"
+import {Input} from "../input";
 import { Select } from "../Select";
-import styles from "./style.module.scss"
+import styles from "./style.module.scss";
 
 
 
@@ -14,13 +14,13 @@ export const TodoForm = ({addNote}) => {
     const submit = (event) => {
     event.preventDefault();
     
-    const numericValue = parseFloat(value)
+    const numericValue = parseFloat(value);
 
     if(!isNaN(numericValue)){
-        addNote({description, value:numericValue, type})
+        addNote({description, value:numericValue, type});
 
     }else{
-        window.alert("Por favor, preencha um número válido para o valor.")
+        window.alert("Por favor, preencha um número válido para o valor.");
     }
 
     setDescription("");
@@ -43,7 +43,6 @@ export const TodoForm = ({addNote}) => {
             />
             <Input 
                 label="Valor (R$)" 
-                placeholder="1" 
                 type="number" 
                 required 
                 id="value" 

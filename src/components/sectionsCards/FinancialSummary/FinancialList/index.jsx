@@ -1,5 +1,5 @@
-import { FinancialCard } from "./FinancialCard"
-import styles from "./style.module.scss"
+import { FinancialCard } from "./FinancialCard";
+import styles from "./style.module.scss";
 
 
 export const FinancialList = ({notList, removeNote}) => {
@@ -22,6 +22,6 @@ export const FinancialList = ({notList, removeNote}) => {
                 )}
             
         </ul>
-    )
-}
+    );
+};
 

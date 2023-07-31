@@ -1,10 +1,9 @@
-
-import styles from "./style.module.scss"
+import styles from "./style.module.scss";
 
 export const SectionValue = ({notList}) => {
 
     const totalValue = notList.reduce((value, note) => {
-        const cont = parseFloat(note.value)
+        const cont = parseFloat(note.value);
         if (note.type === "Entrada"){
             return value + cont;
         }else{
@@ -22,6 +21,6 @@ export const SectionValue = ({notList}) => {
             </div>
             <p className="title four">O valor se refere ao saldo</p>   
         </section>
-    )
-}
+    );
+};
 

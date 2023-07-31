@@ -1,8 +1,8 @@
-import styles from "./style.module.scss"
+import styles from "./style.module.scss";
 
 export const Select = ({value, setValue}) => {
     const handleSelectChange = (event) => {
-        const selectedValue = event.target.value
+        const selectedValue = event.target.value;
         setValue(selectedValue)
         
     }
